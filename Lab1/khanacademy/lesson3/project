@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        
+    body {
+        background-color: rgb(255, 245, 255); }
+        h1{color: rgb(71, 247, 22); }
+        h2{color: rgb(125, 27, 125); }
+        .color{color: rgb(232, 0, 232); }
+        .c{color: rgb(235, 212, 0); }
+        </style>
+    </head>
+    <body>
+       
+        <h1> Ynta's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#pp">Hot Potato</a></li>
+            
+            <li><a href="#ee">Hot Egg</a></li>  
+            <li><a href="#cc">Cold Carrot</a></li>
+        </ol>
+        
+        
+        <h2 id="pp">Hot Potato</h2>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/potatoes.png" alt="potato" height="150">
+        <ul>
+            <li>Time: 10 min</li>
+            <li>Serves: 2</li>
+        </ul>
+        
+        <table class="color">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+             <tr>
+                   <td>Potato</td>
+                    <td>2</td>
+                </tr>
+                
+                <tr>
+                   <td>Salt</td>
+                    <td>0,5 gramm</td>
+                </tr>
+                
+                <tr>
+                   <td>Water</td>
+                    <td>-</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+        <p><strong class="c">Step 1:</strong> Wash Potato <br>
+        <strong class="c">Step 2:</strong> Cut Potato <br>
+        <strong class="c">Step 3:</strong> Fry Potato 
+</p>
+ 
+    <p><em>Source: <a href="https://en.wikipedia.org/wiki/Potato">Some recipes websites</a></em></p>
+    
+    
+    
+    
+    
+    
+     
+        
+        <h2 id="ee">Hot Egg</h2>
+         <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/fruits.png" alt="egg" height="150">
+        <ul>
+            <li>Time: 7 min</li>
+            <li>Serves: 2</li>
+        </ul>
+        
+        <table class="color">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+             <tr>
+                   <td>Egg</td>
+                    <td>2</td>
+                </tr>
+                
+                <tr>
+                   <td>Salt</td>
+                    <td>0,8 gramm</td>
+                </tr>
+                
+                <tr>
+                   <td>Water</td>
+                    <td>-</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+        <p><strong class="c">Step 1:</strong> Wash Egg <br>
+        <strong class="c">Step 2:</strong> Boil Egg <br>
+        <strong class="c">Step 3:</strong> Salt Egg 
+</p>
+ 
+    <p><em>Source: <a href="https://en.wikipedia.org/wiki/Egg">Some recipes websites</a></em></p>
+    
+    
+    
+    
+    
+     
+        <h2 id="cc">Cold Carrot</h2>
+        
+         <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/shish-kebab.png" alt="potato" height="150">
+        
+        <ul>
+            <li>Time: 5 min</li>
+            <li>Serves: 2</li>
+        </ul>
+        
+        <table class="color">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+             <tr>
+                   <td>Carrot</td>
+                    <td>2</td>
+                </tr>
+                
+                <tr>
+                   <td>Salt</td>
+                    <td>0,5 gramm</td>
+                </tr>
+                
+                <tr>
+                   <td>Water</td>
+                    <td>-</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+        <p><strong class="c">Step 1:</strong> Wash Carrot <br>
+        <strong class="c">Step 2:</strong> Cut Carrot <br>
+        <strong class="c">Step 3:</strong> Add Salt
+</p>
+ 
+    <p><em>Source: <a href="https://en.wikipedia.org/wiki/Carrot">Some recipes websites</a></em></p>
+    
+    </body>
+</html>
