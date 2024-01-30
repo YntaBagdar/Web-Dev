@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            
+           body {
+               background-color:rgb(246, 247, 228);
+           } 
+           
+         .col{
+             background-color: rgb(213, 242, 109);
+         }  
+            h1 {color: rgb(54, 53, 51);}
+            
+        </style>
+    </head>
+    
+    
+    
+    <body>
+    
+        <h1>Travel to beaches in Hawaii</h1>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png" alt="beach in hawaii" height="200">
+        
+       <h2 class="col"> Best Beaches in Hawaii</h2>
+       <ul>
+           <li> Kaanapali Beach </li>
+           <li> Kumimi Beach </li>
+           <li> Oneloa Beach </li>
+       </ul>
+       <h3 class="col">Plan of our travel</h3>
+       <ol>
+           <li> Visit Kaanapali Beach </li>
+           <li> Kumimi Beach </li>
+           <li> Oneloa Beach </li>
+       </ol>
+       
+       <h4>Kaanapali Beach</h4>
+       <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-with-palm-trees.png" alt="Kaanapali Beach" height="200"> 
+       <p> Fronted by five hotels, plenty of fine restaurants, and high-end shopping sites, three-mile-long  <strong> Ka’anapali Beach </strong> is a world-class resort destination located in gorgeous <em> Lahaina, Maui</em>.</p>
+       
+       <h4>Kumimi Beach</h4>
+       <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png" alt="Kumimi Beach" height="200"> 
+       <p>Also known as Murphy’s Beach or 20 Mile Marker Beach, <strong>Kumimi Beach</strong> offers some of the greatest snorkeling opportunities on the underrated island of<em> Molokai</em>.</p>
+       
+    </body>
+</html>
