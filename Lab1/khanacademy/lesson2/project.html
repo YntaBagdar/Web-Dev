@@ -13,6 +13,9 @@
              background-color: rgb(213, 242, 109);
          }  
             h1 {color: rgb(54, 53, 51);}
+            #scroll{
+                overflow: scroll;
+            }
             
         </style>
     </head>
@@ -39,7 +42,7 @@
        
        <h4>Kaanapali Beach</h4>
        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-with-palm-trees.png" alt="Kaanapali Beach" height="200"> 
-       <p> Fronted by five hotels, plenty of fine restaurants, and high-end shopping sites, three-mile-long  <strong> Ka’anapali Beach </strong> is a world-class resort destination located in gorgeous <em> Lahaina, Maui</em>.</p>
+       <p id="scroll"> Overflow content is clipped at the element's padding box. There are no scroll bars, and the clipped content is not visible (i.e., clipped content is hidden), but the content still exists. User agents do not add scroll bars and also do not allow users to view the content outside the clipped region by actions such as dragging on a touch screen or using the scroll wheel on a mouse. The content can be scrolled programmatically (for example, by setting the value of the scrollLeft property or the scrollTo() method), in which case the element box is a scroll container.Fronted by five hotels, plenty of fine restaurants, and high-end shopping sites, three-mile-long  <strong> Ka’anapali Beach </strong> is a world-class resort destination located in gorgeous <em> Lahaina, Maui</em>.</p>
        
        <h4>Kumimi Beach</h4>
        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png" alt="Kumimi Beach" height="200"> 
