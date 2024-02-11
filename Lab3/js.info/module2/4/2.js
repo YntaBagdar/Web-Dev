@@ -1,4 +1,2 @@
-let admin, name;
-name = "John";
-admin = name;
-alert( admin );
+let Earth;
+let currentUser;
